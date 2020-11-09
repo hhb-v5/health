@@ -40,6 +40,11 @@ public class OrderSettingController {
      * @param excelFile
      * @return
      */
+	  /**
+     * 批量导入预约设置
+     * @param excelFile
+     * @return
+     */
     @PostMapping("/upload")
     public Result upload(MultipartFile excelFile) throws Exception{
         try {
