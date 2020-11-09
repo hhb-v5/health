@@ -24,6 +24,10 @@ public class UserController {
      * 获取登陆用户名
      * @return
      */
+	     /**
+     * 获取登陆用户名
+     * @return
+     */
     @GetMapping("/getUsername")
     public Result getUsername(){
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();

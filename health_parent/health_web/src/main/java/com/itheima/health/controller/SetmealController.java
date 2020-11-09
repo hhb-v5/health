@@ -47,6 +47,11 @@ public class SetmealController {
      * name="imgFile"
      * @return
      */
+	  /**
+     * 上传图片
+     * name="imgFile"
+     * @return
+     */
     @PostMapping("/upload")
     public Result upload(MultipartFile imgFile){
         //- 获取原文件名才可以获取它后缀名
